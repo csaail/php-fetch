@@ -1,0 +1,24 @@
+ .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="number"],
+  .form-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .form-container input[type="file"] {
+    margin-top: 10px;
+  }
+
+  .form-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }

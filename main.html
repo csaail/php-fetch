@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>User Form</title></head>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="main.js">
+<body> 
+  <div class="form-container">
+    <h2>User Form</h2>
+    <form id="userForm" method="post" action="insert.php" enctype="multipart/form-data">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="number" name="age" placeholder="Age" required>
+      <input type="number" name="weight" placeholder="Weight" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="file" name="healthReport" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
